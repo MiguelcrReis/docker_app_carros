@@ -1,2 +1,6 @@
 # docker_app_carros
-Uma simples aplicação com 3 containers (mysql, node, php)
+
+Uma aplicação de concessionaria que possue 3 containers 
+mysql-container
+node-container
+php-container
