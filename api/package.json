@@ -1,0 +1,22 @@
+{
+  "name": "docker-api",
+  "version": "1.0.0",
+  "description": "docker_app_carros",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon ./scr/index"
+  },
+  "keywords": [
+    "Docker"
+  ],
+  "author": "Miguel Reis",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
+}

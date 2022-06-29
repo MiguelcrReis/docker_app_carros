@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS concessionaria;
+USE concessionaria;
+CREATE TABLE IF NOT EXISTS carros (
+  id INT(11) AUTO_INCREMENT,
+  placa VARCHAR (7),
+  marca VARCHAR(100),
+  modelo VARCHAR(100),
+  ano INT(4),
+  preco DECIMAL(10, 2),
+  PRIMARY KEY (id)
+);
+
+INSERT INTO carros VALUE(0, 'AAA1234', 'FIAT', 'UNO', 2010, 35000);
+INSERT INTO carros VALUE(0, 'BBB1234', 'BMW', 'X1', 2018, 85000);
